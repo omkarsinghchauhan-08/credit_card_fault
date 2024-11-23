@@ -2,3 +2,5 @@ pandas
 numpy
 seaborn
 flask
+pymongo
+scikit-learn
