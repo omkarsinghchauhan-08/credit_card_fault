@@ -16,12 +16,14 @@ def get_requirements(file_path:str)->List[str]:
 
 
 setup(
-    name='credicarcard_fault',
+    name='creditcarcard_fault',
     version='0.0.1',
     author='omkar',
     author_email='omkarsinghchauhan2005@gmail.com',
     install_requires=get_requirements('requirements.txt'),
-    packages=find_packages()
+    packages=find_packages(),
+    
+
 )
 
 
